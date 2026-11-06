@@ -1,0 +1,16 @@
+{
+  "projectId": "prj_DJrBg5sSdyekUBbV1qwGSqLc7kkU",
+  "orgId": "team_ggaHwPbglGm9GpSG38My4hOE",
+  "projectName": "himalayahikes",
+  "settings": {
+    "createdAt": 1793727316684,
+    "framework": "nextjs",
+    "devCommand": null,
+    "installCommand": null,
+    "buildCommand": "node scripts/ensure-assets.mjs && npm run build",
+    "outputDirectory": null,
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "24.x"
+  }
+}

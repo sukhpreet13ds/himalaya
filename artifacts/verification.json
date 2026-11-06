@@ -1,0 +1,300 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "route": "/packages/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "route": "/packages/manali-kasol/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "route": "/packages/chopta-tungnath/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "route": "/packages/udaipur-mount-abu-kumbhalgarh/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "route": "/packages/chakrata/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "route": "/packages/hampta-pass/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "route": "/packages/harshil-valley/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "route": "/packages/kasol-kheerganga/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "route": "/packages/jaisalmer/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "route": "/packages/jibhi-tirthan-valley/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "route": "/photo-credits/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "status": 200
+    },
+    {
+      "route": "/packages/",
+      "width": 768,
+      "status": 200
+    },
+    {
+      "route": "/packages/manali-kasol/",
+      "width": 768,
+      "status": 200
+    },
+    {
+      "route": "/packages/chopta-tungnath/",
+      "width": 768,
+      "status": 200
+    },
+    {
+      "route": "/packages/udaipur-mount-abu-kumbhalgarh/",
+      "width": 768,
+      "status": 200
+    },
+    {
+      "route": "/packages/chakrata/",
+      "width": 768,
+      "status": 200
+    },
+    {
+      "route": "/packages/hampta-pass/",
+      "width": 768,
+      "status": 200
+    },
+    {
+      "route": "/packages/harshil-valley/",
+      "width": 768,
+      "status": 200
+    },
+    {
+      "route": "/packages/kasol-kheerganga/",
+      "width": 768,
+      "status": 200
+    },
+    {
+      "route": "/packages/jaisalmer/",
+      "width": 768,
+      "status": 200
+    },
+    {
+      "route": "/packages/jibhi-tirthan-valley/",
+      "width": 768,
+      "status": 200
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "status": 200
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "status": 200
+    },
+    {
+      "route": "/photo-credits/",
+      "width": 768,
+      "status": 200
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "route": "/packages/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "route": "/packages/manali-kasol/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "route": "/packages/chopta-tungnath/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "route": "/packages/udaipur-mount-abu-kumbhalgarh/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "route": "/packages/chakrata/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "route": "/packages/hampta-pass/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "route": "/packages/harshil-valley/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "route": "/packages/kasol-kheerganga/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "route": "/packages/jaisalmer/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "route": "/packages/jibhi-tirthan-valley/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "route": "/contact/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "route": "/photo-credits/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "status": 200
+    },
+    {
+      "route": "/packages/",
+      "width": 320,
+      "status": 200
+    },
+    {
+      "route": "/packages/manali-kasol/",
+      "width": 320,
+      "status": 200
+    },
+    {
+      "route": "/packages/chopta-tungnath/",
+      "width": 320,
+      "status": 200
+    },
+    {
+      "route": "/packages/udaipur-mount-abu-kumbhalgarh/",
+      "width": 320,
+      "status": 200
+    },
+    {
+      "route": "/packages/chakrata/",
+      "width": 320,
+      "status": 200
+    },
+    {
+      "route": "/packages/hampta-pass/",
+      "width": 320,
+      "status": 200
+    },
+    {
+      "route": "/packages/harshil-valley/",
+      "width": 320,
+      "status": 200
+    },
+    {
+      "route": "/packages/kasol-kheerganga/",
+      "width": 320,
+      "status": 200
+    },
+    {
+      "route": "/packages/jaisalmer/",
+      "width": 320,
+      "status": 200
+    },
+    {
+      "route": "/packages/jibhi-tirthan-valley/",
+      "width": 320,
+      "status": 200
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "status": 200
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "status": 200
+    },
+    {
+      "route": "/photo-credits/",
+      "width": 320,
+      "status": 200
+    }
+  ],
+  "widths": [
+    1440,
+    768,
+    390,
+    320
+  ],
+  "images": 512,
+  "whatsappLinks": 532,
+  "interactions": [
+    "All nine cards map to correct routes and messages; Hampta Pass click works",
+    "Category filters, search and empty-state reset work",
+    "Mobile menu opens, Escape closes it, and Contact navigation works",
+    "Contact form prepares the correct WhatsApp destination and traveller message",
+    "38 unique internal link targets return HTTP 200"
+  ],
+  "runtimeErrors": []
+}

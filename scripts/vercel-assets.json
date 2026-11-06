@@ -1,0 +1,233 @@
+{
+  "origin": "https://himalayahikes-travel.goldy-ldh7376.chatgpt.site/",
+  "files": [
+    {
+      "path": "fonts/manrope.ttf",
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "path": "fonts/OFL.txt",
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    },
+    {
+      "path": "himalayahikes-logo.png",
+      "sha256": "3b520be72a52401f82abb8c30586a34e255b89fe15cee173e2583d2e53440e76"
+    },
+    {
+      "path": "images/chakrata-0-small.webp",
+      "sha256": "5c273928935eab4135cdbee3c2137820889422ead24f6cd3861ff7b7a6102c82"
+    },
+    {
+      "path": "images/chakrata-0.webp",
+      "sha256": "f64faaaac5ccd56373444a72e62ba01fc98c445dd2e3215ebd90c40190af4bd7"
+    },
+    {
+      "path": "images/chakrata-1-small.webp",
+      "sha256": "8521e00a51d615689702dcd1f6896682cba9c5bb496c3ceb8c93a08917541b49"
+    },
+    {
+      "path": "images/chakrata-1.webp",
+      "sha256": "7c753a2683f2bde58a1b79f8e019c0534fb5fe99692ac05c4e8362d22b97357c"
+    },
+    {
+      "path": "images/chakrata-2-small.webp",
+      "sha256": "f94d01fbb9d03ea5b33c5405f92a22c25b5267420200ce09918068bba4110450"
+    },
+    {
+      "path": "images/chakrata-2.webp",
+      "sha256": "2f8f7b60d3f8ca654240a39873225c5aee5b8f474e4d5e6d1c20e5df7db7f45d"
+    },
+    {
+      "path": "images/chopta-0-small.webp",
+      "sha256": "8e153496c90162d81c80b88d7853ae978ae80c9ce220e80f3d93162a36490384"
+    },
+    {
+      "path": "images/chopta-0.webp",
+      "sha256": "2005403d6e0428815a1ba80277bb5a2e332062f39fb866d1fa0c65707ccc6d03"
+    },
+    {
+      "path": "images/chopta-1-small.webp",
+      "sha256": "adafe2bc9d432f5febcb951da8f06a9275b3aae9c5c7ea60eba32fef77eb8250"
+    },
+    {
+      "path": "images/chopta-1.webp",
+      "sha256": "e8f30aa83ed72a1c2966579406e8cfa54da3df54b1b43938dc9e029f384f1819"
+    },
+    {
+      "path": "images/chopta-2-small.webp",
+      "sha256": "c9aabca02649942419a51a48805d5ac15ae8ad99a226e2b5cd972492274ca839"
+    },
+    {
+      "path": "images/chopta-2.webp",
+      "sha256": "d5e98457bd8693c43979740de56404f8e365bb16247e63864ff17ff55052629f"
+    },
+    {
+      "path": "images/hampta-0-small.webp",
+      "sha256": "6c43bc70e3dc4adce68ba313a4dc1cd5c59d0b73355d2fa30d4805ab3042a87f"
+    },
+    {
+      "path": "images/hampta-0.webp",
+      "sha256": "fb842e3aa2aa418ed1ed4fa6bba692fcdad46e698d57c361892d40fc86baf21d"
+    },
+    {
+      "path": "images/hampta-1-small.webp",
+      "sha256": "19c57f673468b600d8d939e3f1f9e9fb7f7dd024701690a0cd0b811ff3799472"
+    },
+    {
+      "path": "images/hampta-1.webp",
+      "sha256": "cd1fd6bee6f087a292645619eb002a3155ad733fdce0ba1918d1ca1feafbd2fd"
+    },
+    {
+      "path": "images/hampta-2-small.webp",
+      "sha256": "c66249128c9232015c3f542bb6ec5f8f424151f0a1b673a47e4eec222efa54f2"
+    },
+    {
+      "path": "images/hampta-2.webp",
+      "sha256": "66755f349103942a46747067856917b11a2bbf32600826d0eb06275e3af9a376"
+    },
+    {
+      "path": "images/harshil-0-small.webp",
+      "sha256": "dba52fda64beee9e3c5e9c4a14ad160573c925132c46dc93eea6e4175d2840eb"
+    },
+    {
+      "path": "images/harshil-0.webp",
+      "sha256": "eb5d74036d18f5e97728192b1814bf86659c390462df5d918027724f9bfa96fb"
+    },
+    {
+      "path": "images/harshil-1-small.webp",
+      "sha256": "25527bdd5c820c6ad89620e3cfacf5f91f8e9529fe43918c32ff51fe2c3a8721"
+    },
+    {
+      "path": "images/harshil-1.webp",
+      "sha256": "4dc0963f5f5608bde86af586c276a903e1bacfa7c628dd37706f2118ca35567f"
+    },
+    {
+      "path": "images/harshil-2-small.webp",
+      "sha256": "ef8ff0f775498b4272fb4518c9bf0a7778d24f5f99bb87badac9288509bdca02"
+    },
+    {
+      "path": "images/harshil-2.webp",
+      "sha256": "233ecdc0144745b698bcf1cb0ea82c2ad444128731940c44442e5a6674a9b18c"
+    },
+    {
+      "path": "images/hero-0-small.webp",
+      "sha256": "32e126a5b67837a70d8e027c5ecf682a9abbcd4a098ae24b6372fc633f307785"
+    },
+    {
+      "path": "images/hero-0.webp",
+      "sha256": "f2843584cdbe748114c2cf2eab824289b118acd206385bbd24c5d321f62414a7"
+    },
+    {
+      "path": "images/hero-1-small.webp",
+      "sha256": "5012b06cd32a0f9947df1a676a556b376a386ce1d7201d7601a9a5a9be686d4c"
+    },
+    {
+      "path": "images/hero-1.webp",
+      "sha256": "1c01411b6388524b00cac9ddd4563ea3ab8f7c2cd75f6309f0b44ecbb575da72"
+    },
+    {
+      "path": "images/jaisalmer-0-small.webp",
+      "sha256": "b3f16aec59db8ac621dd1835782b12265c486771502654f015afe460a8772a72"
+    },
+    {
+      "path": "images/jaisalmer-0.webp",
+      "sha256": "b71ce6e7cb5f68c8e300d2a14b800541594a78257b4ba753a600d3b52d7b3328"
+    },
+    {
+      "path": "images/jaisalmer-1-small.webp",
+      "sha256": "4d9f3041b64fd09647fe4c19496242927ac7c336a7ea577836661938df8d3eb8"
+    },
+    {
+      "path": "images/jaisalmer-1.webp",
+      "sha256": "779bc26e765162b0e93b62ed59058a80d42b4865fddf9f973708d4e950b802b5"
+    },
+    {
+      "path": "images/jaisalmer-2-small.webp",
+      "sha256": "2cd1f007b3ee02801134ac5259dca55b99771cb2070d2c3a5066906118e710ce"
+    },
+    {
+      "path": "images/jaisalmer-2.webp",
+      "sha256": "9427e75ef27e8ecca60ae04694e2fe83e3640c7ab36daa96b19f9ed94fabae71"
+    },
+    {
+      "path": "images/jibhi-0-small.webp",
+      "sha256": "bd159294b097a5c0c203a98580ef63ff65ca276bae95b23eda6672f530cfa648"
+    },
+    {
+      "path": "images/jibhi-0.webp",
+      "sha256": "c0ca7a60361792b10359cd6ef6af4c0723d0af5ffb6330d8067fdbb5c0f0f9c7"
+    },
+    {
+      "path": "images/jibhi-1-small.webp",
+      "sha256": "8e68af7691017f942e2452d503905753958887813a93a800a8a85fd108d0c24a"
+    },
+    {
+      "path": "images/jibhi-1.webp",
+      "sha256": "99e029e5837f217daaa546d1f2bc7ad8caa0b3070f37d13cb3241591484c7518"
+    },
+    {
+      "path": "images/jibhi-2-small.webp",
+      "sha256": "a91fe8ddd96d92dda409210de8406258b6d212d4a1735efd728acb9af1b5c650"
+    },
+    {
+      "path": "images/jibhi-2.webp",
+      "sha256": "3dde0f10d91b78320f43fba0b8842834a662fdd3ecbfa0fe6c56365afd22fd45"
+    },
+    {
+      "path": "images/kasol-0-small.webp",
+      "sha256": "d7bd9ebd4f4d0b42d8d97f8dfccad463eaac51fae32b5ef2e7baa22cf5a89aee"
+    },
+    {
+      "path": "images/kasol-0.webp",
+      "sha256": "5f63af372f3abd3bb8e6f09c2492084afad4c68604525712d785ffab7d97854a"
+    },
+    {
+      "path": "images/kasol-1-small.webp",
+      "sha256": "5b1c97c78211c21f7649eaa3922a5c6da3a8f008a9c03345549cd3bde273cefe"
+    },
+    {
+      "path": "images/kasol-1.webp",
+      "sha256": "094e7cd04b2d935bfcad52ce7068daf213ec2b6fab358c32ae0aaf78c0f1ee8c"
+    },
+    {
+      "path": "images/manali-0-small.webp",
+      "sha256": "d87b82c4890fc665addc7f65d0e5c11f84642f2ae51bf7f3e5683cd94f963dbd"
+    },
+    {
+      "path": "images/manali-0.webp",
+      "sha256": "96e5297ac8de0bb8a761ce952978c1b5dc29f2cb9ea46ae1c725d8dcf963e301"
+    },
+    {
+      "path": "images/manali-1-small.webp",
+      "sha256": "cc6c5b599d97239d25ef7db1125fe036ac6794dc2a2593cecb0aba87358c43f5"
+    },
+    {
+      "path": "images/manali-1.webp",
+      "sha256": "ac69bcb0b9155574396460f43e1929bad2916088eb665c3632119ea980c3f081"
+    },
+    {
+      "path": "images/udaipur-0-small.webp",
+      "sha256": "cec775dfb0fc23a1ff083dc631cdc33c87c54707b8e824ffb631947e0c470660"
+    },
+    {
+      "path": "images/udaipur-0.webp",
+      "sha256": "5f2b6eaee5c654224ba058895a5c55aea3d9f0d6623d9c689ebbe8e23ba740fe"
+    },
+    {
+      "path": "images/udaipur-1-small.webp",
+      "sha256": "a059ccab48bb1c5ab4cc366fe4faa3026a0de4e53666fa3a0f1683256ce7de9a"
+    },
+    {
+      "path": "images/udaipur-1.webp",
+      "sha256": "efe53a3aa62c8a72b6c287b4d34b62eb76004b2c7616d5e48541e2443fa9cf11"
+    },
+    {
+      "path": "images/udaipur-2-small.webp",
+      "sha256": "cbb3d9c21eb58fd90b5174e24baf6b2f5fb1ad6ec59c85bf77f41fbddf0eee7a"
+    },
+    {
+      "path": "images/udaipur-2.webp",
+      "sha256": "65701e60215886e79ad46a599929da59077f2fc98a6fd6f77a2797049502ef5f"
+    }
+  ]
+}

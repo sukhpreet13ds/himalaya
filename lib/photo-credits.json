@@ -1,0 +1,276 @@
+{
+  "hero": [
+    {
+      "src": "/images/hero-0.webp",
+      "small": "/images/hero-0-small.webp",
+      "alt": "Morning in Langtang",
+      "author": "Q-lieb-in",
+      "page": "https://commons.wikimedia.org/wiki/File:Morning_in_Langtang.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "src": "/images/hero-1.webp",
+      "small": "/images/hero-1-small.webp",
+      "alt": "Symmetrical Himalayas",
+      "author": "Shubhang99",
+      "page": "https://commons.wikimedia.org/wiki/File:Symmetrical_Himalayas.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "manali": [
+    {
+      "src": "/images/manali-0.webp",
+      "small": "/images/manali-0-small.webp",
+      "alt": "Manali landscape view",
+      "author": "Vaibhavraj241",
+      "page": "https://commons.wikimedia.org/wiki/File:Manali_landscape_view.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "src": "/images/manali-1.webp",
+      "small": "/images/manali-1-small.webp",
+      "alt": "Landscape of Manali, India, 2016",
+      "author": "Anuj.bhargava7",
+      "page": "https://commons.wikimedia.org/wiki/File:Landscape_of_Manali,_India,_2016.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "chopta": [
+    {
+      "src": "/images/chopta-1.webp",
+      "small": "/images/chopta-1-small.webp",
+      "alt": "Tungnath, India (32735073444)",
+      "author": "Aditya Siva",
+      "page": "https://commons.wikimedia.org/wiki/File:Tungnath,_India_(32735073444).jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "src": "/images/chopta-0.webp",
+      "small": "/images/chopta-0-small.webp",
+      "alt": "Chandrashila peak from Tungnath Temple",
+      "author": "Navdeep Gusain",
+      "page": "https://commons.wikimedia.org/wiki/File:Chandrashila_peak_from_Tungnath_Temple.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "src": "/images/chopta-2.webp",
+      "small": "/images/chopta-2-small.webp",
+      "alt": "Tungnath temple",
+      "author": "Varun Shiv Kapur",
+      "page": "https://commons.wikimedia.org/wiki/File:Tungnath_temple.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+  ],
+  "udaipur": [
+    {
+      "src": "/images/udaipur-2.webp",
+      "small": "/images/udaipur-2-small.webp",
+      "alt": "20191207 Lake Pichola, Udaipur, 1652 7315",
+      "author": "Jakub Halun",
+      "page": "https://commons.wikimedia.org/wiki/File:20191207_Lake_Pichola,_Udaipur,_1652_7315.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "src": "/images/udaipur-0.webp",
+      "small": "/images/udaipur-0-small.webp",
+      "alt": "Pichola lake sunset",
+      "author": "Arjuncm3",
+      "page": "https://commons.wikimedia.org/wiki/File:Pichola_lake_sunset.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "src": "/images/udaipur-1.webp",
+      "small": "/images/udaipur-1-small.webp",
+      "alt": "Lake Pichola at sunset, Udaipur, Rajasthan, India",
+      "author": "UnpetitproleX",
+      "page": "https://commons.wikimedia.org/wiki/File:Lake_Pichola_at_sunset,_Udaipur,_Rajasthan,_India.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "chakrata": [
+    {
+      "src": "/images/chakrata-0.webp",
+      "small": "/images/chakrata-0-small.webp",
+      "alt": "Chakrata",
+      "author": "Manojpanchal90",
+      "page": "https://commons.wikimedia.org/wiki/File:Chakrata.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "src": "/images/chakrata-1.webp",
+      "small": "/images/chakrata-1-small.webp",
+      "alt": "Chakrata",
+      "author": "JediPro",
+      "page": "https://commons.wikimedia.org/wiki/File:Chakrata_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "src": "/images/chakrata-2.webp",
+      "small": "/images/chakrata-2-small.webp",
+      "alt": "Chakrata nice wather",
+      "author": "Mustkeem Ahamad",
+      "page": "https://commons.wikimedia.org/wiki/File:Chakrata_nice_wather.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "hampta": [
+    {
+      "src": "/images/hampta-2.webp",
+      "small": "/images/hampta-2-small.webp",
+      "alt": "Way to hampta pass",
+      "author": "Kunalsvnit",
+      "page": "https://commons.wikimedia.org/wiki/File:Way_to_hampta_pass.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "src": "/images/hampta-0.webp",
+      "small": "/images/hampta-0-small.webp",
+      "alt": "Hampta Pass",
+      "author": "mkasiak",
+      "page": "https://commons.wikimedia.org/wiki/File:Hampta_Pass_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "src": "/images/hampta-1.webp",
+      "small": "/images/hampta-1-small.webp",
+      "alt": "Hampta Valley",
+      "author": "mkasiak",
+      "page": "https://commons.wikimedia.org/wiki/File:Hampta_Valley_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    }
+  ],
+  "harshil": [
+    {
+      "src": "/images/harshil-0.webp",
+      "small": "/images/harshil-0-small.webp",
+      "alt": "Harsil Valley",
+      "author": "Harshit SR",
+      "page": "https://commons.wikimedia.org/wiki/File:Harsil_Valley.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "src": "/images/harshil-1.webp",
+      "small": "/images/harshil-1-small.webp",
+      "alt": "Harsil Valley, Uttarkashi, Uttarakhand",
+      "author": "Harshit SR",
+      "page": "https://commons.wikimedia.org/wiki/File:Harsil_Valley,_Uttarkashi,_Uttarakhand.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "src": "/images/harshil-2.webp",
+      "small": "/images/harshil-2-small.webp",
+      "alt": "Harsil Vally",
+      "author": "Jaisingh rathore at en.wikipedia",
+      "page": "https://commons.wikimedia.org/wiki/File:Harsil_Vally.jpg",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+  ],
+  "kasol": [
+    {
+      "src": "/images/kasol-0.webp",
+      "small": "/images/kasol-0-small.webp",
+      "alt": "Kheerganga, Himachal Pradesh",
+      "author": "Nikhil.m.sharma",
+      "page": "https://commons.wikimedia.org/wiki/File:Kheerganga,_Himachal_Pradesh.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "src": "/images/kasol-1.webp",
+      "small": "/images/kasol-1-small.webp",
+      "alt": "Landscape with mountains and rocks in Khir Ganga, Himachal Pradesh",
+      "author": "YUVRAJ ANAND",
+      "page": "https://commons.wikimedia.org/wiki/File:Landscape_with_mountains_and_rocks_in_Khir_Ganga,_Himachal_Pradesh.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "jaisalmer": [
+    {
+      "src": "/images/jaisalmer-0.webp",
+      "small": "/images/jaisalmer-0-small.webp",
+      "alt": "Sam dunes (Jaisalmer)",
+      "author": "Roshanrajverma",
+      "page": "https://commons.wikimedia.org/wiki/File:Sam_dunes_(Jaisalmer).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "src": "/images/jaisalmer-2.webp",
+      "small": "/images/jaisalmer-2-small.webp",
+      "alt": "Camels at Sam sand dunes, Jaisalmer (44753465845)",
+      "author": "Dinesh Valke from Thane, India",
+      "page": "https://commons.wikimedia.org/wiki/File:Camels_at_Sam_sand_dunes,_Jaisalmer_(44753465845).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+  ],
+  "jibhi": [
+    {
+      "src": "/images/jibhi-2.webp",
+      "small": "/images/jibhi-2-small.webp",
+      "alt": "Tirthan Hill",
+      "author": "Priyambada Nath",
+      "page": "https://commons.wikimedia.org/wiki/File:Tirthan_Hill.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "src": "/images/jibhi-1.webp",
+      "small": "/images/jibhi-1-small.webp",
+      "alt": "Tirthan River",
+      "author": "Vishrutpanday",
+      "page": "https://commons.wikimedia.org/wiki/File:Tirthan_River.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "src": "/images/jibhi-0.webp",
+      "small": "/images/jibhi-0-small.webp",
+      "alt": "Tirthan River Tirthan Valley",
+      "author": "Debashritaiitmandi",
+      "page": "https://commons.wikimedia.org/wiki/File:Tirthan_River_Tirthan_Valley_DSC00968.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "mcleodganj": [
+    {
+      "src": "/images/manali-0.webp",
+      "small": "/images/manali-0-small.webp",
+      "alt": "Mcleodganj Dharamshala scenery",
+      "author": "Vaibhavraj241",
+      "page": "https://commons.wikimedia.org/wiki/File:Manali_landscape_view.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "src": "/images/manali-1.webp",
+      "small": "/images/manali-1-small.webp",
+      "alt": "Mcleodganj Dharamshala scenery",
+      "author": "Anuj.bhargava7",
+      "page": "https://commons.wikimedia.org/wiki/File:Landscape_of_Manali,_India,_2016.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ]
+}

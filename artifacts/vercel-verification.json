@@ -1,0 +1,47 @@
+{
+  "origin": "https://himalayahikes.vercel.app",
+  "routes": [
+    "/",
+    "/packages/",
+    "/packages/manali-kasol/",
+    "/packages/chopta-tungnath/",
+    "/packages/udaipur-mount-abu-kumbhalgarh/",
+    "/packages/chakrata/",
+    "/packages/hampta-pass/",
+    "/packages/harshil-valley/",
+    "/packages/kasol-kheerganga/",
+    "/packages/jaisalmer/",
+    "/packages/jibhi-tirthan-valley/",
+    "/about/",
+    "/contact/",
+    "/photo-credits/"
+  ],
+  "assets": 57,
+  "browserChecks": [
+    {
+      "route": "/",
+      "width": 1440
+    },
+    {
+      "route": "/packages/hampta-pass/",
+      "width": 1440
+    },
+    {
+      "route": "/contact/",
+      "width": 1440
+    },
+    {
+      "route": "/",
+      "width": 390
+    },
+    {
+      "route": "/packages/hampta-pass/",
+      "width": 390
+    },
+    {
+      "route": "/contact/",
+      "width": 390
+    }
+  ],
+  "errors": []
+}
