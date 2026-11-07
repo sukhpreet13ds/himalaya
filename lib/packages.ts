@@ -133,7 +133,7 @@ export const packages: Package[] = [
     brochures: [
       {
         title: 'Kasol & Kheerganga Trek Itinerary',
-        file: '/brochures/manali-kasol-3n4d.pdf',
+        file: '/brochures/manali-2n3d.pdf',
         duration: '2N/3D'
       }
     ]

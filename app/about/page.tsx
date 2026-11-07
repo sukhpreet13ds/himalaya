@@ -13,7 +13,11 @@ import { ScenicImage, WhyUs, Adventure } from '@/components/sections';
 import { Reveal } from '@/components/ui';
 import { whatsappUrl } from '@/lib/packages';
 
-export const metadata: Metadata = { title: 'About Us | HimalayaHikes' };
+export const metadata: Metadata = {
+  title: 'About HimalayaHikes | Our Story, Travel & Trekking Adventures',
+  description:
+    'Discover HimalayaHikes, your travel partner for Himalayan trekking, mountain adventures and Rajasthan escapes. Explore our values, passion and personalized trip planning.'
+};
 
 const stats = [
   { value: '500+', label: 'Happy Travelers' },

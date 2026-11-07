@@ -14,11 +14,11 @@ config.autoAddCss = false;
 
 export const metadata: Metadata = {
   title: {
-    default: 'HimalayaHikes - Go Beyond the Ordinary',
-    template: '%s | HimalayaHikes'
+    default: 'HimalayaHikes | Himalayan Trekking & Holiday Packages',
+    template: '%s'
   },
   description:
-    'Discover Himalayan escapes, unforgettable treks, and the magic of Rajasthan. Explore detailed tour itineraries and plan your next adventure with HimalayaHikes.',
+    'Explore Himalayan trekking adventures and holiday packages with HimalayaHikes. Discover Manali, Kasol, Chopta, Hampta Pass, Jibhi and more. Plan your trip today!',
   icons: {
     icon: '/logo.png',
     shortcut: '/logo.png',
@@ -33,6 +33,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-K947672W" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());`
+          }}
+        />
+      </head>
       <body>
         <a href="#main" className="skip-link">
           Skip to content

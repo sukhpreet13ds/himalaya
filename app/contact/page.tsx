@@ -12,7 +12,11 @@ import { EnquiryForm } from '@/components/enquiry-form';
 import { ScenicImage } from '@/components/sections';
 import { whatsappUrl } from '@/lib/packages';
 
-export const metadata: Metadata = { title: 'Contact Us | HimalayaHikes' };
+export const metadata: Metadata = {
+  title: 'Contact HimalayaHikes | Plan Your Himalayan Adventure',
+  description:
+    'Get in touch with HimalayaHikes to plan your next Himalayan trek, mountain getaway or customized holiday package. Contact our team for travel assistance and bookings.'
+};
 
 export default function Contact() {
   return (

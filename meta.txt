@@ -1,0 +1,107 @@
+https://himalayahikes.in/
+
+
+HimalayaHikes | Himalayan Trekking & Holiday Packages
+
+
+Explore Himalayan trekking adventures and holiday packages with HimalayaHikes. Discover Manali, Kasol, Chopta, Hampta Pass, Jibhi and more. Plan your trip today!
+
+https://himalayahikes.in/about/
+
+
+About HimalayaHikes | Our Story, Travel & Trekking Adventures	
+
+Discover HimalayaHikes, your travel partner for Himalayan trekking, mountain adventures and Rajasthan escapes. Explore our values, passion and personalized trip planning.
+
+
+https://himalayahikes.in/contact/
+
+
+Contact HimalayaHikes | Plan Your Himalayan Adventure
+
+Get in touch with HimalayaHikes to plan your next Himalayan trek, mountain getaway or customized holiday package. Contact our team for travel assistance and bookings.
+
+
+https://himalayahikes.in/brochures/chopta-tungnath.pdf
+
+
+Chopta Tungnath Trek Package | 3N/4D Himalayan Tour – HimalayaHikes
+
+Explore the Chopta Tungnath trek with HimalayaHikes. Discover Tungnath Temple, Chandrashila Peak and Deoria Tal with an exciting Himalayan trekking package.
+
+
+https://himalayahikes.in/brochures/manali-kasol-3n4d.pdf
+
+
+Manali Kasol Tour Package 3N/4D | HimalayaHikes
+
+Explore Manali, Solang Valley, Sissu and Kasol with our 3N/4D Himachal tour package. Enjoy mountain views, sightseeing, bonfires and memorable experiences.
+
+https://himalayahikes.in/brochures/udaipur.pdf
+
+
+Udaipur Mount Abu Tour Package | 2N/3D – HimalayaHikes
+
+Explore Udaipur and Mount Abu with HimalayaHikes. Enjoy a memorable Rajasthan tour covering City Palace, Lake Pichola, Nakki Lake and Dilwara Jain Temples.	
+
+https://himalayahikes.in/brochures/hampta-pass.pdf
+
+
+Hampta Pass Trek with Chandratal 4N/5D | HimalayaHikes
+
+Experience the Hampta Pass Trek with Chandratal Lake in 4N/5D. Explore stunning Himalayan valleys, high-altitude camps and mountain landscapes with HimalayaHikes.
+
+https://himalayahikes.in/brochures/jibhi-tirthan.pdf
+
+
+Jibhi Tirthan Valley Tour Package 2N/3D | HimalayaHikes
+
+
+Explore Jibhi and Tirthan Valley with HimalayaHikes. Enjoy a 2N/3D Himachal trip covering Jibhi Waterfall, Jalori Pass, Serolsar Lake and scenic mountain trails.
+
+https://himalayahikes.in/brochures/jaisalmer.pdf
+
+
+
+Jaisalmer Tour Package | Rajasthan Desert Trip – HimalayaHikes
+
+Jaisalmer tour package, Jaisalmer desert safari, Rajasthan tour packages, Jaisalmer desert camp, Sam Sand Dunes, Jaisalmer sightseeing, camel safari Jaisalmer, Jaisalmer fort, Rajasthan desert tour, HimalayaHikes.
+
+
+https://himalayahikes.in/brochures/chakrata.pdf
+
+
+Chakrata Tour Package | Uttarakhand Holiday Packages – HimalayaHikes
+
+
+Explore Chakrata with HimalayaHikes. Discover beautiful waterfalls, mountain views, scenic landscapes and peaceful hill stations with an exciting Uttarakhand tour package.
+
+
+
+https://himalayahikes.in/brochures/mcleodganj.pdf
+
+
+McLeodganj Tour Package | Dharamshala Trip – HimalayaHikes
+
+Explore McLeodganj and Dharamshala with HimalayaHikes. Discover Bhagsu Waterfall, Triund, Dalai Lama Temple and scenic Himalayan landscapes with an exciting Himachal tour package.
+
+https://himalayahikes.in/brochures/harshil-valley.pdf
+
+
+
+Harshil Valley Tour Package | Uttarakhand Trip – HimalayaHikes
+
+
+Explore the beautiful Harshil Valley with HimalayaHikes. Discover scenic Himalayan landscapes, riverside villages, mountain views and peaceful nature escapes in Uttarakhand.
+
+
+========
+
+Below is the Google tag for this container. Copy and paste it in the code of every page of your website, immediately after the <head> element. Don’t add more than one Google tag to each page.
+
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-K947672W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>

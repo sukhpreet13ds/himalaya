@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -17,6 +18,12 @@ import { MotionSlider } from '@/components/motion-slider';
 import { HimaGallerySlider } from '@/components/hima-gallery-slider';
 import { PromoBanner } from '@/components/promo-banner';
 import { HeroSlider } from '@/components/hero-slider';
+
+export const metadata: Metadata = {
+  title: 'HimalayaHikes | Himalayan Trekking & Holiday Packages',
+  description:
+    'Explore Himalayan trekking adventures and holiday packages with HimalayaHikes. Discover Manali, Kasol, Chopta, Hampta Pass, Jibhi and more. Plan your trip today!'
+};
 
 export default function Home() {
   const gallery = [

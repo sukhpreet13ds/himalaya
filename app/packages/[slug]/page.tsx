@@ -25,6 +25,54 @@ export function generateStaticParams() {
 
 export const dynamicParams = false;
 
+const packageMetadataMap: Record<string, { title: string; description: string }> = {
+  'chopta-tungnath': {
+    title: 'Chopta Tungnath Trek Package | 3N/4D Himalayan Tour – HimalayaHikes',
+    description:
+      'Explore the Chopta Tungnath trek with HimalayaHikes. Discover Tungnath Temple, Chandrashila Peak and Deoria Tal with an exciting Himalayan trekking package.'
+  },
+  'manali-kasol': {
+    title: 'Manali Kasol Tour Package 3N/4D | HimalayaHikes',
+    description:
+      'Explore Manali, Solang Valley, Sissu and Kasol with our 3N/4D Himachal tour package. Enjoy mountain views, sightseeing, bonfires and memorable experiences.'
+  },
+  'udaipur-mount-abu-kumbhalgarh': {
+    title: 'Udaipur Mount Abu Tour Package | 2N/3D – HimalayaHikes',
+    description:
+      'Explore Udaipur and Mount Abu with HimalayaHikes. Enjoy a memorable Rajasthan tour covering City Palace, Lake Pichola, Nakki Lake and Dilwara Jain Temples.'
+  },
+  'hampta-pass': {
+    title: 'Hampta Pass Trek with Chandratal 4N/5D | HimalayaHikes',
+    description:
+      'Experience the Hampta Pass Trek with Chandratal Lake in 4N/5D. Explore stunning Himalayan valleys, high-altitude camps and mountain landscapes with HimalayaHikes.'
+  },
+  'jibhi-tirthan-valley': {
+    title: 'Jibhi Tirthan Valley Tour Package 2N/3D | HimalayaHikes',
+    description:
+      'Explore Jibhi and Tirthan Valley with HimalayaHikes. Enjoy a 2N/3D Himachal trip covering Jibhi Waterfall, Jalori Pass, Serolsar Lake and scenic mountain trails.'
+  },
+  'jaisalmer': {
+    title: 'Jaisalmer Tour Package | Rajasthan Desert Trip – HimalayaHikes',
+    description:
+      'Jaisalmer tour package, Jaisalmer desert safari, Rajasthan tour packages, Jaisalmer desert camp, Sam Sand Dunes, Jaisalmer sightseeing, camel safari Jaisalmer, Jaisalmer fort, Rajasthan desert tour, HimalayaHikes.'
+  },
+  'chakrata': {
+    title: 'Chakrata Tour Package | Uttarakhand Holiday Packages – HimalayaHikes',
+    description:
+      'Explore Chakrata with HimalayaHikes. Discover beautiful waterfalls, mountain views, scenic landscapes and peaceful hill stations with an exciting Uttarakhand tour package.'
+  },
+  'mcleodganj': {
+    title: 'McLeodganj Tour Package | Dharamshala Trip – HimalayaHikes',
+    description:
+      'Explore McLeodganj and Dharamshala with HimalayaHikes. Discover Bhagsu Waterfall, Triund, Dalai Lama Temple and scenic Himalayan landscapes with an exciting Himachal tour package.'
+  },
+  'harshil-valley': {
+    title: 'Harshil Valley Tour Package | Uttarakhand Trip – HimalayaHikes',
+    description:
+      'Explore the beautiful Harshil Valley with HimalayaHikes. Discover scenic Himalayan landscapes, riverside villages, mountain views and peaceful nature escapes in Uttarakhand.'
+  }
+};
+
 export async function generateMetadata({
   params
 }: {
@@ -32,9 +80,11 @@ export async function generateMetadata({
 }) {
   const { slug } = await params;
   const p = packages.find((p) => p.slug === slug);
+  const custom = packageMetadataMap[slug];
+
   return {
-    title: p?.name || 'Package',
-    description: p?.tagline
+    title: custom?.title || (p?.name ? `${p.name} | HimalayaHikes` : 'Package'),
+    description: custom?.description || p?.tagline || ''
   };
 }
 
