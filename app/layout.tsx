@@ -18,7 +18,12 @@ export const metadata: Metadata = {
     template: '%s | HimalayaHikes'
   },
   description:
-    'Discover Himalayan escapes, unforgettable treks, and the magic of Rajasthan. Explore detailed tour itineraries and plan your next adventure with HimalayaHikes.'
+    'Discover Himalayan escapes, unforgettable treks, and the magic of Rajasthan. Explore detailed tour itineraries and plan your next adventure with HimalayaHikes.',
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png'
+  }
 };
 
 export default function RootLayout({
