@@ -11,7 +11,10 @@ import {
   faXmark,
   faExpand,
   faCamera,
-  faMountain
+  faMountain,
+  faVideo,
+  faVolumeHigh,
+  faVolumeXmark
 } from '@fortawesome/free-solid-svg-icons';
 import { whatsappUrl } from '@/lib/packages';
 
@@ -21,6 +24,20 @@ export type HimaPhoto = {
   title: string;
   tag: string;
 };
+
+export type HimaVideo = {
+  id: number;
+  src: string;
+  title: string;
+  tag: string;
+};
+
+// Three authentic videos from public/images
+const himaVideos: HimaVideo[] = [
+  { id: 1, src: '/images/video1.mp4', title: 'Himalayan Ridge & High Altitude Trails', tag: 'Trail Video 01' },
+  { id: 2, src: '/images/video2.mp4', title: 'Pine Valley & Mountain Stream Walk', tag: 'Trail Video 02' },
+  { id: 3, src: '/images/video3.mp4', title: 'Summit Panorama & Sunset Glow', tag: 'Trail Video 03' }
+];
 
 // All 24 authentic photos from C:\Users\abc\Pictures\hima
 const himaPhotos: HimaPhoto[] = [
@@ -53,12 +70,27 @@ const himaPhotos: HimaPhoto[] = [
 export function HimaGallerySlider() {
   const [startIndex, setStartIndex] = useState(0);
   const [popupIndex, setPopupIndex] = useState<number | null>(null);
+  const [popupVideoIndex, setPopupVideoIndex] = useState<number | null>(null);
+  const [videoMuted, setVideoMuted] = useState<boolean[]>([true, true, true]);
+  const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   const total = himaPhotos.length;
   // Items visible in viewport: desktop displays 4, tablet 2, mobile 1
   const visibleCount = 4;
   const maxStart = total - 1;
+
+  const toggleMute = (idx: number, e: React.MouseEvent) => {
+    e.stopPropagation();
+    setVideoMuted((prev) => {
+      const next = [...prev];
+      next[idx] = !next[idx];
+      if (videoRefs.current[idx]) {
+        videoRefs.current[idx]!.muted = next[idx];
+      }
+      return next;
+    });
+  };
 
   const nextSlide = useCallback(() => {
     setStartIndex((prev) => (prev + 1 > maxStart ? 0 : prev + 1));
@@ -70,7 +102,7 @@ export function HimaGallerySlider() {
 
   // Autoplay by default (pauses only when full-screen preview is open)
   useEffect(() => {
-    if (popupIndex !== null) return;
+    if (popupIndex !== null || popupVideoIndex !== null) return;
     timerRef.current = setInterval(() => {
       nextSlide();
     }, 3500);
@@ -78,7 +110,7 @@ export function HimaGallerySlider() {
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, [popupIndex, nextSlide]);
+  }, [popupIndex, popupVideoIndex, nextSlide]);
 
   const openPopup = (index: number) => {
     setPopupIndex(index);
@@ -98,7 +130,7 @@ export function HimaGallerySlider() {
     setPopupIndex((popupIndex - 1 + total) % total);
   }, [popupIndex, total]);
 
-  // Modal keyboard shortcuts
+  // Photo modal keyboard shortcuts
   useEffect(() => {
     if (popupIndex === null) return;
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -111,6 +143,23 @@ export function HimaGallerySlider() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [popupIndex, nextPopup, prevPopup]);
 
+  // Video modal keyboard shortcuts
+  useEffect(() => {
+    if (popupVideoIndex === null) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setPopupVideoIndex(null);
+      if (e.key === 'ArrowRight') {
+        setPopupVideoIndex((prev) => (prev! + 1) % himaVideos.length);
+      }
+      if (e.key === 'ArrowLeft') {
+        setPopupVideoIndex((prev) => (prev! - 1 + himaVideos.length) % himaVideos.length);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [popupVideoIndex]);
+
   return (
     <section className="section hima-slider-section">
       <div className="wrap">
@@ -120,10 +169,10 @@ export function HimaGallerySlider() {
               <FontAwesomeIcon icon={faCamera} /> TRAIL MOMENTS GALLERY & SLIDER
             </span>
             <h2>
-              Himalayan Photo Stories<span className="orange-dot">.</span>
+              Himalayan Photo & Video Stories<span className="orange-dot">.</span>
             </h2>
             <p>
-              Captured directly on our mountain expeditions. Click any image to open full-screen pop preview.
+              Captured directly on our mountain expeditions. Watch authentic trail videos and photo moments.
             </p>
           </div>
 
@@ -146,6 +195,58 @@ export function HimaGallerySlider() {
                 <FontAwesomeIcon icon={faChevronRight} />
               </button>
             </div>
+          </div>
+        </div>
+
+        {/* Three Live Trail Videos - Perfectly Aligned */}
+        <div className="hima-videos-showcase">
+          <div className="hima-videos-header">
+            <span className="hima-videos-kicker">
+              <FontAwesomeIcon icon={faVideo} /> LIVE TRAIL VIDEOS
+            </span>
+            <span className="hima-videos-sub">Authentic Expedition Footage</span>
+          </div>
+
+          <div className="hima-videos-grid">
+            {himaVideos.map((video, idx) => (
+              <div
+                key={video.id}
+                className="hima-video-card"
+                onClick={() => setPopupVideoIndex(idx)}
+              >
+                <div className="hima-video-inner">
+                  <video
+                    ref={(el) => {
+                      videoRefs.current[idx] = el;
+                    }}
+                    src={video.src}
+                    muted={videoMuted[idx]}
+                    loop
+                    autoPlay
+                    playsInline
+                    preload="metadata"
+                    className="hima-video-element"
+                  />
+                  <div className="hima-video-overlay">
+                    <div className="hima-video-top">
+                     
+                      <button
+                        type="button"
+                        onClick={(e) => toggleMute(idx, e)}
+                        className="hima-video-controls-btn"
+                        aria-label={videoMuted[idx] ? 'Unmute video' : 'Mute video'}
+                        title={videoMuted[idx] ? 'Click to Unmute' : 'Click to Mute'}
+                      >
+                        <FontAwesomeIcon icon={videoMuted[idx] ? faVolumeXmark : faVolumeHigh} />
+                      </button>
+                    </div>
+
+                    <div className="hima-video-bottom">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 
@@ -188,7 +289,7 @@ export function HimaGallerySlider() {
         </div>
       </div>
 
-      {/* Pop Preview (Lightbox Modal) */}
+      {/* Photo Pop Preview (Lightbox Modal) */}
       <AnimatePresence>
         {popupIndex !== null && (
           <motion.div
@@ -289,6 +390,93 @@ export function HimaGallerySlider() {
                     />
                   </button>
                 ))}
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Video Pop Preview (Lightbox Modal) */}
+      <AnimatePresence>
+        {popupVideoIndex !== null && (
+          <motion.div
+            className="hima-popup-backdrop"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.22 }}
+            onClick={() => setPopupVideoIndex(null)}
+          >
+            <motion.div
+              className="hima-popup-modal hima-popup-video-modal"
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.9, opacity: 0 }}
+              transition={{ duration: 0.25 }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <button
+                type="button"
+                className="hima-popup-close"
+                onClick={() => setPopupVideoIndex(null)}
+                aria-label="Close video"
+              >
+                <FontAwesomeIcon icon={faXmark} />
+              </button>
+
+              <button
+                type="button"
+                className="hima-popup-arrow hima-popup-prev"
+                onClick={() =>
+                  setPopupVideoIndex(
+                    (prev) => (prev! - 1 + himaVideos.length) % himaVideos.length
+                  )
+                }
+                aria-label="Previous video"
+              >
+                <FontAwesomeIcon icon={faChevronLeft} size="lg" />
+              </button>
+              <button
+                type="button"
+                className="hima-popup-arrow hima-popup-next"
+                onClick={() =>
+                  setPopupVideoIndex((prev) => (prev! + 1) % himaVideos.length)
+                }
+                aria-label="Next video"
+              >
+                <FontAwesomeIcon icon={faChevronRight} size="lg" />
+              </button>
+
+              <div className="hima-popup-img-wrap hima-popup-video-wrap">
+                <video
+                  src={himaVideos[popupVideoIndex].src}
+                  controls
+                  autoPlay
+                  playsInline
+                  className="hima-popup-video"
+                />
+              </div>
+
+              <div className="hima-popup-footer">
+                <div className="hima-popup-info">
+                  <span className="hima-popup-badge">
+                    <FontAwesomeIcon icon={faVideo} /> {himaVideos[popupVideoIndex].tag} &bull; Video {popupVideoIndex + 1} of {himaVideos.length}
+                  </span>
+                  <h3>{himaVideos[popupVideoIndex].title}</h3>
+                </div>
+
+                <a
+                  href={whatsappUrl(
+                    himaVideos[popupVideoIndex].tag,
+                    `Hello HimalayaHikes, I saw trail video #${popupVideoIndex + 1} (${himaVideos[popupVideoIndex].title} - ${himaVideos[popupVideoIndex].tag}) on your website. Please tell me which upcoming package covers this location!`
+                  )}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button button-orange hima-popup-btn"
+                >
+                  <FontAwesomeIcon icon={faWhatsapp} className="fa-lg" />
+                  <span>Inquire on WhatsApp</span>
+                </a>
               </div>
             </motion.div>
           </motion.div>
